@@ -1,3 +1,41 @@
-h1 {
-    background-color: aqua;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    color: white;
+}
+
+#title, #description {
+    text-align: center;
+}
+
+#description {
+    font-style: italic;
+}
+
+.container {
+    width: 60%;
+    max-width: 650px;
+    margin: auto;
+    padding: 30px;
+    background-color: rgba(29, 29, 85, 0.8);
+    border-radius: 5px;
+}
+
+.container input:not([type="radio"]):not([type="checkbox"])    , select, textarea, button {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+input:not([type="radio"]):not([type="checkbox"]), button    {
+    display: block;
+    margin: 15px auto;
+}
+
+button {
+    background-color: rgb(87, 196, 87);
+    padding: 20px auto;
+    display: inline-block;
 }
